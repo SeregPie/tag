@@ -1,0 +1,34 @@
+{
+	"name": "@seregpie/tag",
+	"version": "1.0.0",
+	"description": "Parses template literals to a function.",
+	"keywords": [
+		"compile",
+		"dictionary",
+		"function",
+		"literal",
+		"render",
+		"string",
+		"tag",
+		"template"
+	],
+	"license": "MIT",
+	"author": "Sergej Sintschilin <seregpie@gmail.com>",
+	"files": [],
+	"main": "index.js",
+	"repository": "github:SeregPie/tag",
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "npm run build",
+		"test": "node test"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.6",
+		"@babel/preset-env": "^7.11.5",
+		"@rollup/plugin-babel": "^5.2.1",
+		"eslint": "^7.11.0",
+		"eslint-config-seregpie": "^1.0.1",
+		"rollup": "^2.29.0",
+		"rollup-plugin-terser": "^7.0.2"
+	}
+}
