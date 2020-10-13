@@ -1,6 +1,6 @@
 # tag
 
-Parses template literals to a function.
+Parses a template literal to a function.
 
 ## setup
 

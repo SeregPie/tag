@@ -1,7 +1,7 @@
 {
 	"name": "@seregpie/tag",
 	"version": "1.0.0",
-	"description": "Parses template literals to a function.",
+	"description": "Parses a template literal to a function.",
 	"keywords": [
 		"compile",
 		"dictionary",
